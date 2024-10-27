@@ -1,0 +1,118 @@
+{
+	"domain_1": {
+		"1.1.a": "What are benefits of using the AWS Cloud for companies with customers in many countries around the world? (Select TWO.)",
+		"1.1.b": "",
+		"1.1.c": "",
+
+		"1.2.a": "A user deploys an Amazon RDS DB instance in multiple Availability Zones. This strategy involves which pillar of the AWS Well-Architected Framework?",
+		"1.2.b": "",
+
+		"1.3.a": "A company has an on-premises Linux-based server with an Oracle database that runs on it. The company wants to migrate the database server to run on an Amazon EC2 instance in AWS. Which service should the company use to complete the migration?",
+		"1.3.b": "",
+
+		"1.4.a": "How does AWS charge for AWS Lambda usage once the free tier has been exceeded? (Select TWO.))",
+		"1.4.b": "",
+		"1.4.c": ""
+	},
+
+	"domain_2": {
+		"2.1.a": "Which tasks are the customer's responsibility according to the AWS shared responsibility model? (Select TWO.)",
+		"2.1.b": "",
+		"2.1.c": "",
+		"2.1.d": "",
+		"2.1.e": "",
+
+		"2.2.a": "A company needs to monitor and receive alerts about AWS Management Console sign-in events that involve the AWS account root user. Which AWS service can the company use to meet these requirements?",
+		"2.2.b": "",
+		"2.2.c": "",
+		"2.2.d": "",
+		"2.2.e": "",
+		"2.2.f": "",
+
+		"2.3.a": "Which credential components are required to gain programmatic access to an AWS account? (Select TWO.)",
+		"2.3.b": "",
+		"2.3.c": "",
+		"2.3.d": "",
+		"2.3.e": "",
+		"2.3.f": "",
+
+		"2.4.a": "Which AWS service identifies security groups that allow unrestricted access to a user's AWS resources?",
+		"2.4.b": "",
+		"2.4.c": "",
+		"2.4.d": ""
+	},
+
+	"domain_3": {
+		"3.1.a": "A company wants to establish a consistent and private connection from the company's on-premises data center to the AWS Cloud.Which AWS service will meet these requirements?",
+		"3.1.b": "A company requires an encrypted connection between the company's on-premises servers and AWS. The connection must use the company's existing internet connection. Which solution will meet these requirements?",
+		"3.1.c": "",
+		"3.1.d": "",
+
+		"3.2.a": "What are the advantages of deploying an application with Amazon EC2 instances in multiple Availability Zones? (Select TWO.)",
+		"3.2.b": "",
+		"3.2.c": "",
+		"3.2.d": "",
+		"3.2.e": "",
+
+		"3.3.a": "",
+		"3.3.b": "",
+		"3.3.c": "",
+		"3.3.d": "",
+		"3.3.e": "",
+
+		"3.4.a": "A company requires a relational database on AWS that records new customer orders from a website.Which AWS service or feature will meet this requirement?",
+		"3.4.b": "",
+		"3.4.c": "",
+		"3.4.d": "",
+		"3.4.e": "",
+
+		"3.5.a": "A company is hosting a static website from a single Amazon S3 bucket.  Which AWS service will achieve lower latency and high transfer speeds?",
+		"3.5.b": "",
+		"3.5.c": "",
+		"3.5.d": "",
+		"3.5.e": "",
+
+		"3.6.a": "Which of the functionalities are characteristics of Amazon S3? (Select TWO.)",
+		"3.6.b": "",
+		"3.6.c": "",
+		"3.6.d": "",
+		"3.6.e": "",
+		"3.6.f": "",
+		"3.6.g": "",
+
+		"3.7.a": "A company wants to create a learning application for students. The learning application must give students the option to choose a button to have the text read out loud to them.Which AWS machine learning service will meet this requirement?",
+		"3.7.b": "",
+
+		"3.8.a": "A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. Which AWS service can meet these requirements?",
+		"3.8.b": "A company is moving all of their development activities to AWS. The company wants a solution to store and manage their developers' source code.Which AWS coding service will meet this requirement?",
+		"3.8.c": "",
+		"3.8.d": "",
+		"3.8.e": "",
+		"3.8.f": "",
+		"3.8.g": "",
+		"3.8.h": ""
+	},
+
+	"domain_4": {
+		"4.1.a": "Which AWS service allows customers to purchase unused Amazon EC2 capacity at an often discounted rate?",
+		"4.1.b": "",
+		"4.1.c": "",
+		"4.1.d": "",
+		"4.1.e": "",
+
+		"4.2.a": "Each department within a company has its own independent AWS account and its own payment method. The company needs to centralize departmental governance and consolidate payments.How can the company achieve these objectives by using AWS services or features?",
+		"4.2.b": "",
+		"4.2.c": "",
+		"4.2.d": "",
+
+		"4.3.a": "What is the MINIMUM AWS Support plan that provides technical support through phone calls?",
+		"4.3.b": "",
+		"4.3.c": "",
+		"4.3.d": "",
+		"4.3.e": "",
+		"4.3.f": "",
+		"4.3.g": "",
+		"4.3.h": "",
+		"4.3.i": ""
+	}
+}

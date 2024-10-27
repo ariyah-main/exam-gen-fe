@@ -1,59 +1,44 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="AWS exam papers" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+<section class="pt-8">
+	<h2>Generate practice questions</h2>
 
-		to your new<br />SvelteKit app
-	</h1>
+	<form>
+		<!-- Drop down input for choosing the exam -->
+		<input type="text" name="exam" id="exam" placeholder="choose an exam" />
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+		<!-- Radio button input for exam topics -->
+		<input type="text" name="type" id="type" placeholder="topic --- full" />
 
-	<Counter />
+		<!-- Choose topics component -->
+		<div>
+			<input type="text" name="topic" id="topic" placeholder="Choose a topic" />
+			<input type="number" name="length" id="length" placeholder="choose 10, 30, 5" />
+		</div>
+
+		<!-- Section with dynamically updating price updating price -->
+		<div>
+			<p>Price:</p>
+			<p>$2.00</p>
+		</div>
+
+		<!-- hopefully model is cheap enough to  -->
+		<button type="submit">Preview questions</button>
+	</form>
+
+	<p>Or choose one of practice papers from our catalogue</p>
+
+	<!-- Drop down input for choosing the exam -->
+	<input type="text" name="exam" id="exam" placeholder="choose an exam" />
+
+	<p>List of papers based on the parameters</p>
 </section>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
 </style>

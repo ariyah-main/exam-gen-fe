@@ -14,7 +14,7 @@
 								"understanding the benefits of using global infrastructure e.g. speed of deployment, global reach",
 								"understanding the advantages of high availability, elasticity, and agility"
 							],
-							"examples": [
+							"training_questions": [
 								"What are benefits of using the AWS Cloud for companies with customers in many countries around the world? (Select TWO.)"
 							]
 						},
@@ -25,7 +25,7 @@
 								"understanding the pillars of the Well-Architected Framework e.g. operational excellence, security, reliability, performance efficiency, cost optimization, sustainability",
 								"Identifying differences between the pillars of the Well-Architected Framework"
 							],
-							"examples": [
+							"training_questions": [
 								"A user deploys an Amazon RDS DB instance in multiple Availability Zones. This strategy involves which pillar of the AWS Well-Architected Framework?"
 							]
 						},
@@ -36,7 +36,7 @@
 								"Understanding the benefits of the AWS Cloud Adoption Framework e.g.educed business risk; improved environmental, social,and governance (ESG) performance; increased revenue; increased operational efficiency ",
 								"Identifying appropriate migration strategies e.g. database replication, use of AWS Snowball"
 							],
-							"examples": [
+							"training_questions": [
 								"A company has an on-premises Linux-based server with an Oracle database that runs on it. The company wants to migrate the database server to run on an Amazon EC2 instance in AWS. Which service should the company use to complete the migration?"
 							]
 						},
@@ -50,7 +50,7 @@
 								"Identifying benefits of automation e.g. provisioning and configuration management with AWS CloudFormation",
 								"Identifying managed AWS services e.g.  Amazon RDS, Amazon Elastic Container Service [Amazon ECS], Amazon Elastic Kubernetes Service [Amazon EKS], Amazon DynamoDB"
 							],
-							"examples": [
+							"training_questions": [
 								"How does AWS charge for AWS Lambda usage once the free tier has been exceeded? (Select TWO)"
 							]
 						}
@@ -69,7 +69,7 @@
 								"describing responsibilities that the customer and AWS share",
 								"describing how AWS responsibilities and customer responsibilities can shift depending on the service used, such as Amazon RDS, AWS Lambda, or Amazon EC2"
 							],
-							"examples": [
+							"training_questions": [
 								"Which tasks are the customer's responsibility according to the AWS shared responsibility model? (Select TWO.)"
 							]
 						},
@@ -84,7 +84,7 @@
 								"recognizing services that aid in governance and compliance, such as monitoring with Amazon CloudWatch, auditing with AWS CloudTrail, AWS Audit Manager, and AWS Config, or reporting with access reports",
 								"recognizing compliance requirements that vary among AWS services"
 							],
-							"examples": [
+							"training_questions": [
 								"A company needs to monitor and receive alerts about AWS Management Console sign-in events that involve the AWS account root user. Which AWS service can the company use to meet these requirements?"
 							]
 						},
@@ -99,7 +99,7 @@
 								"understanding methods for protecting the root user account",
 								"understanding different types of identity management, such as federated identity management"
 							],
-							"examples": [
+							"training_questions": [
 								"Which credential components are required to gain programmatic access to an AWS account? (Select TWO.)"
 							]
 						},
@@ -112,7 +112,7 @@
 								"identifying where AWS security information is available, such as AWS Knowledge Center, AWS Security Center, and AWS Security Blog",
 								"understanding how to use AWS services, like AWS Trusted Advisor, for identifying security issues"
 							],
-							"examples": [
+							"training_questions": [
 								"Which AWS service identifies security groups that allow unrestricted access to a user's AWS resources?"
 							]
 						}
@@ -130,7 +130,7 @@
 								"identifying different deployment models, such as cloud, hybrid, and on-premises",
 								"identifying connectivity options, such as AWS VPN, AWS Direct Connect, and public internet"
 							],
-							"examples": [
+							"training_questions": [
 								"A company wants to establish a consistent and private connection from the company's on-premises data center to the AWS Cloud.Which AWS service will meet these requirements?",
 								"A company requires an encrypted connection between the company's on-premises servers and AWS. The connection must use the company's existing internet connection. Which solution will meet these requirements?"
 							]
@@ -145,7 +145,7 @@
 								"describing when to use multiple Regions, such as for disaster recovery, business continuity, low latency for end users, or data sovereignty",
 								"describing the benefits of edge locations, such as through Amazon CloudFront or AWS Global Accelerator"
 							],
-							"examples": [
+							"training_questions": [
 								"What are the advantages of deploying an application with Amazon EC2 instances in multiple Availability Zones? (Select TWO.)"
 							]
 						},
@@ -159,7 +159,7 @@
 								"recognizing that auto scaling provides elasticity",
 								"identifying the purposes of load balancers"
 							],
-							"examples": []
+							"training_questions": []
 						},
 						{
 							"name": "3.4 Identify AWS database services",
@@ -171,7 +171,7 @@
 								"identifying memory-based databases",
 								"identifying database migration tools, such as AWS Database Migration Service (AWS DMS) and AWS Schema Conversion Tool (AWS SCT)"
 							],
-							"examples": [
+							"training_questions": [
 								"A company requires a relational database on AWS that records new customer orders from a website.Which AWS service or feature will meet this requirement?"
 							]
 						},
@@ -185,7 +185,7 @@
 								"identifying edge services e.g. CloudFront, Global Accelerator",
 								"identifying network connectivity options to AWS e.g. AWS VPN, Direct Connect"
 							],
-							"examples": [
+							"training_questions": [
 								"A company is hosting a static website from a single Amazon S3 bucket.  Which AWS service will achieve lower latency and high transfer speeds?"
 							]
 						},
@@ -201,7 +201,7 @@
 								"understanding use cases for lifecycle policies",
 								"understanding use cases for AWS Backup"
 							],
-							"examples": [
+							"training_questions": [
 								"Which of the functionalities are characteristics of Amazon S3? (Select TWO.)"
 							]
 						},
@@ -212,7 +212,7 @@
 								"understanding the different AI/ML services and the tasks that they accomplish e.g. Amazon SageMaker, Amazon Lex, Amazon Kendra",
 								"identifying the services for data analytics e.g. Amazon Athena, Amazon Kinesis, AWS Glue, Amazon QuickSight"
 							],
-							"examples": [
+							"training_questions": [
 								"A company wants to create a learning application for students. The learning application must give students the option to choose a button to have the text read out loud to them.Which AWS machine learning service will meet this requirement?"
 							]
 						},
@@ -229,7 +229,7 @@
 								"identifying the services that can create and deploy frontend and mobile services",
 								"identifying the services that manage IoT devices"
 							],
-							"examples": [
+							"training_questions": [
 								"A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. Which AWS service can meet these requirements?",
 								"A company is moving all of their development activities to AWS. The company wants a solution to store and manage their developers' source code.Which AWS coding service will meet this requirement?"
 							]
@@ -249,7 +249,7 @@
 								"understanding incoming data transfer costs and outgoing data transfer costs e.g. from one Region to another Region, within the same Region",
 								"understanding different pricing options for various storage options"
 							],
-							"examples": [
+							"training_questions": [
 								"Which AWS service allows customers to purchase unused Amazon EC2 capacity at an often discounted rate?"
 							]
 						},
@@ -262,7 +262,7 @@
 								"understanding AWS Organizations consolidated billing and allocation of costs",
 								"understanding various types of cost allocation tags and their relation to billing reports e.g. AWS Cost and Usage Report"
 							],
-							"examples": [
+							"training_questions": [
 								"Each department within a company has its own independent AWS account and its own payment method. The company needs to centralize departmental governance and consolidate payments.How can the company achieve these objectives by using AWS services or features?"
 							]
 						},
@@ -280,7 +280,7 @@
 								"identifying the key services that AWS Marketplace offers e.g. cost management, governance and entitlement",
 								"identifying technical assistance options available at AWS e.g. AWS Professional Services, AWS Solutions Architects"
 							],
-							"examples": [
+							"training_questions": [
 								"What is the MINIMUM AWS Support plan that provides technical support through phone calls?"
 							]
 						}

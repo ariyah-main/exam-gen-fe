@@ -1,5 +1,5 @@
 import OpenAI from 'openai';
-import domain_3 from '../src/domain_3.js';
+import domain_3 from '../src/data/domain_3';
 // const openai = new OpenAI();
 
 // const system_content = 'You work for amazon and you are creating replica/mock exam exam for the aws certified cloud practitioner exam. The questions you generate will be in the same style as real aws certified cloud practitioner exam questions and they will be limited to the scope as the exam.';

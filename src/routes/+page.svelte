@@ -1,4 +1,7 @@
 <script>
+	import ExamTile from "../components/exam-tile.svelte";
+	import papers from "../data/exams";
+
 </script>
 
 <svelte:head>
@@ -6,39 +9,25 @@
 	<meta name="description" content="AWS exam papers" />
 </svelte:head>
 
-<section class="pt-8">
-	<h2>Generate practice questions</h2>
+<div class="mx-auto max-w-[1024px] w-[85%] h-screen ">
 
-	<form>
-		<!-- Drop down input for choosing the exam -->
-		<input type="text" name="exam" id="exam" placeholder="choose an exam" />
+	<h1 class="font-bold text-2xl mt-4">My Practice Papers</h1>
 
-		<!-- Radio button input for exam topics -->
-		<input type="text" name="type" id="type" placeholder="topic --- full" />
+	<div class="flex flex-col space-y-4 mt-4">
 
-		<!-- Choose topics component -->
-		<div>
-			<input type="text" name="topic" id="topic" placeholder="Choose a topic" />
-			<input type="number" name="length" id="length" placeholder="choose 10, 30, 5" />
-		</div>
+		{#each papers as paper}
+			<ExamTile paper={paper} />
+		{/each}	
+	</div>
 
-		<!-- Section with dynamically updating price updating price -->
-		<div>
-			<p>Price:</p>
-			<p>$2.00</p>
-		</div>
+	<div class="w-full flex justify-center mt-[50px]">
+		<button class="text-sm bg-gray-500 p-2 text-white rounded-lg">
+			<p>More Papers</p>
+		</button>
+	</div>
 
-		<!-- hopefully model is cheap enough to  -->
-		<button type="submit">Preview questions</button>
-	</form>
 
-	<p>Or choose one of practice papers from our catalogue</p>
-
-	<!-- Drop down input for choosing the exam -->
-	<input type="text" name="exam" id="exam" placeholder="choose an exam" />
-
-	<p>List of papers based on the parameters</p>
-</section>
+</div>
 
 <style>
 </style>

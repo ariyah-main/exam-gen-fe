@@ -23,3 +23,8 @@ vite.config.ts.timestamp-*
 # wrangler files
 .wrangler
 .dev.vars
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
